@@ -1,0 +1,147 @@
+############################################
+# ========== IDE (All major IDEs) ==========
+############################################
+
+# JetBrains (PyCharm / CLion / Rider / etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+cmake-build-*/
+build-*/
+*.log
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Qt Creator
+*.pro.user*
+*.qmlproject.user*
+*.qmlprojectdesigner.*
+CMakeLists.txt.user
+
+# Visual Studio / MSBuild
+.vs/
+*.VC.db
+*.VC.opendb
+Debug/
+Release/
+x64/
+x86/
+
+############################################
+# ========== C++ / Qt Build Outputs ==========
+############################################
+
+build/
+cmake-build-debug/
+cmake-build-release/
+obj/
+bin/
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+
+# Qt deployment artifacts
+*.app/
+*.dmg
+*.pkg
+
+############################################
+# ========== Python ==========
+############################################
+
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# virtual env
+venv/
+.venv/
+env/
+ENV/
+
+# conda
+conda-meta/
+.env
+
+# pytest / mypy / coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+############################################
+# ========== Database ==========
+############################################
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+############################################
+# ========== Logs / runtime ==========
+############################################
+
+logs/
+*.log
+*.pid
+*.lock
+
+############################################
+# ========== OS generated ==========
+############################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+############################################
+# ========== Packaging / Deploy ==========
+############################################
+
+dist/
+deploy/output/
+installer/
+*.msi
+*.rpm
+*.deb
+
+############################################
+# ========== Local config ==========
+############################################
+
+.env.local
+.env.*.local
+
+############################################
+# ========== SPECIAL RULE: plugins/.idea ==========
+############################################
+
+# Ignore ALL JetBrains metadata everywhere (important for multi-module project)
+.idea/
+
+# But if you want to be stricter (optional):
+# plugins/.idea/
